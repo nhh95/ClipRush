@@ -1,0 +1,90 @@
+
+
+body {
+    background-color: #1e1e1e;
+    margin: 0;
+    padding: 0;
+      display:flex;          /* 플렉스 레이아웃 시작 */
+      flex-direction:column; /* 세로 방향(위→아래) */
+      min-height:100vh;      /* 뷰포트 전체 높이 확보 */
+      margin:0;
+    font-family: sans-serif;
+
+}
+
+/* 헤더 */
+.header {
+    background-color: #3e3e3e;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.header-title {
+    font-weight:bold;
+    font-size:20px;
+    color:#fff;
+    text-decoration:none;
+}
+
+.nav-menu a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.login-register {
+    display: flex;
+    align-items: center;
+}
+
+.login-register a {
+    color: white;
+    margin-right: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-register button {
+    background-color: #00e0b3;
+    border: none;
+    padding: 5px 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* 본문 */
+.main-content {
+    background-color: #222;
+      flex:1;                /* grow=1 → 자동으로 늘어남 */
+      background:#222;
+      color:#fff;
+      padding:24px;
+}
+
+/* 푸터 */
+.footer {
+    background-color: #555;
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h3 {
+    margin-top: 0;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
